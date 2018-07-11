@@ -19,14 +19,14 @@ while True:
 
   # Create the message
   # str() converts the value to a string so it can be concatenated
-  message = "Temperature: " + str(t) + " Pressure: " + str(p) + " Humidity: " + str(h)
+  message = "Temperature: " + str(t-10.0) + " Pressure: " + str(p) + " Humidity: " + str(h)
 
-  if t > 18.3 and t < 26.7:
+  if t > 18.3 and t < 40.7:
     bg = green
   else:
     bg = red
 
   # Display the scrolling message
-  sense.show_message(message, scroll_speed=0.5, back_colour=bg)
+  sense.show_message(message, scroll_speed=0.150, back_colour=bg)
 
-  
+  #Aggiornato tempo visualizzazione e sottratto ipotetico riscaldamento scheda
