@@ -15,4 +15,4 @@ CMD modprobe i2c-dev && python src/audio_analyzer_wav.py
 
 #sudo apt-get update && sudo apt-get upgrade
 #sudo apt-get install python-dev python-imaging python-smbus python-alsaaudio sense-hat python-numpy
-#rpi-update
+#rpi-update error
