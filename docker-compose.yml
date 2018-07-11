@@ -1,0 +1,11 @@
+version: '2'
+services:
+  Sensor_Hat:
+    build: ./Sensor_Hat
+    privileged: true
+  Tunnel:
+    build: ./Tunnel
+    privileged: true
+  audio_analyzer_wav:
+    build: ./audio_analyzer_wav
+    privileged: true
