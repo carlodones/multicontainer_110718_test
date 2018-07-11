@@ -4,7 +4,7 @@ sense = SenseHat()
 # Define the colours red and green
 red = (255, 0, 0)
 green = (0, 255, 0)
-blue = (0,0,0)
+black = (0,0,0)
 while True:
 
   # Take readings from all three sensors
@@ -17,12 +17,14 @@ while True:
   p = round(p, 1)
   h = round(h, 1)
 
+  t = t - 10.0
+
   # Create the message
   # str() converts the value to a string so it can be concatenated
-  message = "Temperature: " + str(t-10.0) + " Pressure: " + str(p) + " Humidity: " + str(h)
+  message = "Temperature: " + str(t) + " Pressure: " + str(p) + " Humidity: " + str(h)
 
   if t > 18.3 and t < 27.7:
-    bg = blue
+    bg = black
   else:
     bg = red
 
