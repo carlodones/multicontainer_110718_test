@@ -10,8 +10,10 @@ COPY . .
 
 ENV INITSYSTEM on
 
-CMD modprobe i2c-dev && python src/audio_analyzer_wav.py
+CMD ["python", "/usr/src/app/src/audio_analyzer_wav.py"]
 
 
 #sudo apt-get update && sudo apt-get upgrade
 #sudo apt-get install python-dev python-imaging python-smbus python-alsaaudio sense-hat python-numpy
+#modifica CMD con sintassi aggiornata ed estromissione i2c rimossa la seguente riga di comando:
+#CMD modprobe i2c-dev && python src/audio_analyzer_wav.py

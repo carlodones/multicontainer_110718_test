@@ -10,4 +10,4 @@ COPY . .
 
 ENV INITSYSTEM on
 
-CMD modprobe i2c-dev && python src/sensor_hat.py
+CMD ["python", "/usr/src/app/src/sensor_hat.py"]
