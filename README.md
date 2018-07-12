@@ -1,9 +1,23 @@
 # test single 
 container per ricerca errore dovuto a multiarray (numpy) e impossibilità di utilizzo di qualsiasi script python risolto con single container
 
-è necessario applicare struttura multicontainer per sviluppo software, si procede alla seconda fase di test (mulidocker)
+# test multi
+è necessario applicare struttura multicontainer per sviluppo software, si procede alla seconda fase di test (multidocker)
 
-# Seguono i diversi container
+# Sviluppo gestione multidocker
+La terza fase di sviulippo si è conclusa positivamente con l'avvio multicontainer i Dockerfile prevedono l'importazione del pacchetto Python Jessie (segue specifica) ogni docker sio avvia in modo autonomo.
+
+https://packages.debian.org/jessie/python/
+
+https://packages.debian.org/jessie/
+
+# Docker link 
+
+https://docs.docker.com/get-started/#recap-and-cheat-sheet
+
+https://docs.docker.com/engine/reference/builder/#cmd
+
+# Seguono i diversi container utilizzati a fine test
 
 # sense-tunnel
 A scrolling tunnel game using the Sense Hat orientation sensors for control.

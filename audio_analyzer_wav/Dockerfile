@@ -10,7 +10,7 @@ COPY . .
 
 ENV INITSYSTEM on
 
-CMD ["python", "/usr/src/app/src/audio_analyzer_wav.py"]
+# CMD ["python", "/usr/src/app/src/audio_analyzer_wav.py"]
 
 
 #sudo apt-get update && sudo apt-get upgrade

@@ -10,4 +10,4 @@ COPY . .
 
 ENV INITSYSTEM on
 
-#CMD ["python", "/usr/src/app/src/sensor_hat.py"]
+CMD ["python", "/usr/src/app/src/sensor_hat.py"]
