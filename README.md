@@ -1,7 +1,7 @@
-# test single 
+# Test single 
 container per ricerca errore dovuto a multiarray (numpy) e impossibilità di utilizzo di qualsiasi script python risolto con single container
 
-# test multi
+# Test multi
 è necessario applicare struttura multicontainer per sviluppo software, si procede alla seconda fase di test (multidocker)
 
 # Sviluppo gestione multidocker
@@ -19,7 +19,7 @@ https://docs.docker.com/engine/reference/builder/#cmd
 
 # Seguono i diversi container utilizzati a fine test
 
-# sense-tunnel
+# Sense-tunnel
 A scrolling tunnel game using the Sense Hat orientation sensors for control.
 
 Based on the Marble Maze tutorial found [here](https://www.raspberrypi.org/learning/sense-hat-marble-maze/). 
@@ -27,7 +27,7 @@ Based on the Marble Maze tutorial found [here](https://www.raspberrypi.org/learn
 ### Gameplay
 The marble (white dot) is controlled by tilting the board in any direction. The game ends if the marble hits a red dot or is carried off screen by the tunnel wall. Start a new game by pressing the joystick.
 
-# raspberry-pi-sense-hat-audio-spectrum-analyzer
+# Raspberry-pi-sense-hat-audio-spectrum-analyzer
 python code to analyze audio spectrum using the LED matrix of the Raspberry Pi sense HAT
 
 This code is a modification of https://www.rototron.info/raspberry-pi-spectrum-analyzer/.
@@ -39,7 +39,7 @@ http://www.dx.com/p/mi-305-plug-and-play-mini-usb-microphone-black-287434#.WlJ5q
 
 but any mic that works with the Raspberry Pi should be working.
 
-## install dependencies
+## Install dependencies
 ```
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python-dev python-imaging python-smbus python-alsaaudio sense-hat python-numpy
@@ -49,7 +49,7 @@ and for using the microphone:
 
 `sudo apt-get install python-pyaudio`
 
-## running
+## Running
 For playing a wav file:
 `python audio_analyzer_wav.py /path/to/wav/file`
 
@@ -59,7 +59,7 @@ This version has a somewhat more creative LED visualisation:
 And this version uses the microphone:
 `python audio_analyzer_mic.py`
 
-## orientation
+## Orientation
 The default orientation of the sense HAT is, with the GPIO 
 connection on top, the left side being the bottom of the visualisation.
 When mounted on the pi, it means you need point the USB-ports
